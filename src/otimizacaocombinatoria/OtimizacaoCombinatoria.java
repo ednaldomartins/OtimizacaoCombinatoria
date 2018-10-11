@@ -1,21 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package otimizacaocombinatoria;
 
-/**
- *
- * @author Ednaldo
- */
-public class OtimizacaoCombinatoria {
+/*******************************************************************************
+ * @author Ednaldo                                                             *
+ *  date: 11.10.2018                                                           *
+ ******************************************************************************/
+public class OtimizacaoCombinatoria 
+{
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args) 
+    {
+        
     }
-    
 }
