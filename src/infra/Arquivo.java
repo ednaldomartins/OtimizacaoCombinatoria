@@ -27,7 +27,7 @@ public class Arquivo
         this.loadPath = Paths.get(loadPath);
     }
     
-    public List<Item> carregarObejtos() throws IOException 
+    public List<Item> carregarItens() throws IOException 
     {
         List<Item> listaItens = new ArrayList<>();
         try ( BufferedReader reader = Files.newBufferedReader(loadPath, utf8) )
@@ -37,7 +37,7 @@ public class Arquivo
             while( (linha = reader.readLine()) != null )
             {
                 String[] parametro = linha.split(" ");
-                Item item = new Item( Integer.parseInt(parametro[0]), Integer.parseInt(parametro[1]) );
+                Item item = new Item( Integer.parseInt(parametro[1]), Integer.parseInt(parametro[0]) );
                 listaItens.add(item);    
             }        
         }
