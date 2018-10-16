@@ -1,5 +1,5 @@
 
-package otimizacaocombinatoria;
+package problemadamochila;
 
 /*******************************************************************************
  * @author Ednaldo                                                             *
