@@ -5,17 +5,19 @@ package model;
  * @author Ednaldo                                                             *
  *  date: 15.10.2018                                                           *
  ******************************************************************************/
-public class Objeto 
+public class Item 
 {
     
     private long valor;
     private long peso;
 
-    public Objeto(long valor, long peso)
+    public Item(long valor, long peso)
     {
         this.valor = valor;
         this.peso = peso;
     }
+
+    public Item() {}
 
     public long getValor() {
         return valor;
