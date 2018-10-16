@@ -20,6 +20,16 @@ public class Mochila
         this.listaItens = new ArrayList();
     }
 
+    public void addItem( Item item )
+    {
+        if(item.getPeso() <= espacoDisponivel)
+        {
+            listaItens.add(item);
+            setEspaco( getEspaco() - item.getPeso() );
+        }
+    }
+    
+    
     //GETs
     public long getEspacoTotal() {
         return espacoTotal;
