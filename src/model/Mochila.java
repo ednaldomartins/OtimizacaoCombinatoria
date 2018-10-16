@@ -11,13 +11,13 @@ public class Mochila
 {
     private long espacoTotal;
     private long espacoDisponivel;
-    private ArrayList<Objeto>listaObjetos;
+    private ArrayList<Item>listaItens;
 
     public Mochila(long espacoTotal)
     {
         this.espacoTotal = espacoTotal;
         this.espacoDisponivel = espacoTotal;
-        this.listaObjetos = new ArrayList();
+        this.listaItens = new ArrayList();
     }
 
     //GETs
@@ -29,8 +29,8 @@ public class Mochila
         return espacoDisponivel;
     }
 
-    public ArrayList<Objeto> getListaObjetos() {
-        return listaObjetos;
+    public ArrayList<Item> getListaItens() {
+        return listaItens;
     }
 
     //SETs
@@ -42,8 +42,8 @@ public class Mochila
         this.espacoDisponivel = espaco;
     }
 
-    public void setListaObjetos(ArrayList<Objeto> listaObjetos) {
-        this.listaObjetos = listaObjetos;
+    public void setListaItens(ArrayList<Item> listaItens) {
+        this.listaItens = listaItens;
     }
     
 }
